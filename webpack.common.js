@@ -5,7 +5,7 @@ module.exports = {
   entry: "./src/index.js",
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Production',
+      title: "Production",
       template: "./src/template.html",
     }),
   ],
@@ -14,7 +14,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     clean: true,
   },
-    module: {
+  module: {
     rules: [
       {
         test: /\.css$/i,
